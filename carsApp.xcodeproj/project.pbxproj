@@ -3,25 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4A853F8DB9A64B842D988F /* Pods_carsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B797615E1EF1815E1CE1E99 /* Pods_carsApp.framework */; };
 		F8CEDDBC2405ADC80091258F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CEDDBB2405ADC80091258F /* AppDelegate.swift */; };
-		F8CEDDBE2405ADC80091258F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CEDDBD2405ADC80091258F /* ViewController.swift */; };
-		F8CEDDC12405ADC80091258F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CEDDBF2405ADC80091258F /* Main.storyboard */; };
 		F8CEDDC32405ADCA0091258F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CEDDC22405ADCA0091258F /* Assets.xcassets */; };
 		F8CEDDC62405ADCA0091258F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CEDDC42405ADCA0091258F /* LaunchScreen.storyboard */; };
+		F8CEDDCE2405B0240091258F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CEDDCD2405B0240091258F /* MainViewController.swift */; };
+		F8CEDDD02405B0540091258F /* NewCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CEDDCF2405B0540091258F /* NewCarViewController.swift */; };
+		F8CEDDD22405B08E0091258F /* CarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CEDDD12405B08E0091258F /* CarsModel.swift */; };
+		F8CEDDD62405B0C60091258F /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CEDDD52405B0C60091258F /* StorageManager.swift */; };
+		F8CEDDD82405B10A0091258F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CEDDD72405B10A0091258F /* TableViewCell.swift */; };
+		F8CEDDDB2405BF560091258F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CEDDD92405BF560091258F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B797615E1EF1815E1CE1E99 /* Pods_carsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F220C0B46B8D5F8895B4AFE /* Pods-carsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carsApp.debug.xcconfig"; path = "Target Support Files/Pods-carsApp/Pods-carsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DCD9E145F6D4958F1FD17469 /* Pods-carsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carsApp.release.xcconfig"; path = "Target Support Files/Pods-carsApp/Pods-carsApp.release.xcconfig"; sourceTree = "<group>"; };
 		F8CEDDB82405ADC80091258F /* carsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CEDDBB2405ADC80091258F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8CEDDBD2405ADC80091258F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8CEDDC02405ADC80091258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8CEDDC22405ADCA0091258F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8CEDDC52405ADCA0091258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8CEDDC72405ADCA0091258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CEDDCD2405B0240091258F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F8CEDDCF2405B0540091258F /* NewCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarViewController.swift; sourceTree = "<group>"; };
+		F8CEDDD12405B08E0091258F /* CarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsModel.swift; sourceTree = "<group>"; };
+		F8CEDDD52405B0C60091258F /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		F8CEDDD72405B10A0091258F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F8CEDDDA2405BF560091258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Desktop/Swift Book/05. Приложение на основе UITableView (Swift 5)/17. Refactor Code to Use DB/MyPlaces/MyPlaces/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4A853F8DB9A64B842D988F /* Pods_carsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0394B9911DA807DA35D81FB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F220C0B46B8D5F8895B4AFE /* Pods-carsApp.debug.xcconfig */,
+				DCD9E145F6D4958F1FD17469 /* Pods-carsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9A4F0EDE55D90D2F9236C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B797615E1EF1815E1CE1E99 /* Pods_carsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8CEDDAF2405ADC80091258F = {
 			isa = PBXGroup;
 			children = (
 				F8CEDDBA2405ADC80091258F /* carsApp */,
 				F8CEDDB92405ADC80091258F /* Products */,
+				0394B9911DA807DA35D81FB0 /* Pods */,
+				D9A4F0EDE55D90D2F9236C01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				F8CEDDBB2405ADC80091258F /* AppDelegate.swift */,
-				F8CEDDBD2405ADC80091258F /* ViewController.swift */,
-				F8CEDDBF2405ADC80091258F /* Main.storyboard */,
+				F8CEDDCD2405B0240091258F /* MainViewController.swift */,
+				F8CEDDCF2405B0540091258F /* NewCarViewController.swift */,
+				F8CEDDD52405B0C60091258F /* StorageManager.swift */,
+				F8CEDDD12405B08E0091258F /* CarsModel.swift */,
+				F8CEDDD72405B10A0091258F /* TableViewCell.swift */,
+				F8CEDDD92405BF560091258F /* Main.storyboard */,
 				F8CEDDC22405ADCA0091258F /* Assets.xcassets */,
 				F8CEDDC42405ADCA0091258F /* LaunchScreen.storyboard */,
 				F8CEDDC72405ADCA0091258F /* Info.plist */,
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8CEDDCA2405ADCA0091258F /* Build configuration list for PBXNativeTarget "carsApp" */;
 			buildPhases = (
+				5AADAE150791A5F76E29B20B /* [CP] Check Pods Manifest.lock */,
 				F8CEDDB42405ADC80091258F /* Sources */,
 				F8CEDDB52405ADC80091258F /* Frameworks */,
 				F8CEDDB62405ADC80091258F /* Resources */,
+				07E207BECB12D94A6C3E3F73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,41 +160,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CEDDDB2405BF560091258F /* Main.storyboard in Resources */,
 				F8CEDDC62405ADCA0091258F /* LaunchScreen.storyboard in Resources */,
 				F8CEDDC32405ADCA0091258F /* Assets.xcassets in Resources */,
-				F8CEDDC12405ADC80091258F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E207BECB12D94A6C3E3F73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carsApp/Pods-carsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-carsApp/Pods-carsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-carsApp/Pods-carsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AADAE150791A5F76E29B20B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F8CEDDB42405ADC80091258F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8CEDDBE2405ADC80091258F /* ViewController.swift in Sources */,
+				F8CEDDD22405B08E0091258F /* CarsModel.swift in Sources */,
+				F8CEDDD02405B0540091258F /* NewCarViewController.swift in Sources */,
+				F8CEDDD62405B0C60091258F /* StorageManager.swift in Sources */,
+				F8CEDDD82405B10A0091258F /* TableViewCell.swift in Sources */,
 				F8CEDDBC2405ADC80091258F /* AppDelegate.swift in Sources */,
+				F8CEDDCE2405B0240091258F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F8CEDDBF2405ADC80091258F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8CEDDC02405ADC80091258F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F8CEDDC42405ADCA0091258F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F8CEDDC52405ADCA0091258F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F8CEDDD92405BF560091258F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CEDDDA2405BF560091258F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,8 +364,10 @@
 		};
 		F8CEDDCB2405ADCA0091258F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F220C0B46B8D5F8895B4AFE /* Pods-carsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FS43YD3C;
 				INFOPLIST_FILE = carsApp/Info.plist;
@@ -298,8 +384,10 @@
 		};
 		F8CEDDCC2405ADCA0091258F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD9E145F6D4958F1FD17469 /* Pods-carsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FS43YD3C;
 				INFOPLIST_FILE = carsApp/Info.plist;
